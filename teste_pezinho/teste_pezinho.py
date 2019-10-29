@@ -3,7 +3,7 @@ from orator import DatabaseManager, Model
 config = {
     'sqlite': {
         'driver': 'sqlite',
-        'database': './Testedopezinho.db',
+        'database': './teste_pezinho.db',
     }
 }
 

@@ -1,9 +1,14 @@
+# Using orator
+# Github: https://github.com/sdispater/orator
+# Official Page: https://orator-orm.com/
+# Install via Command Line Interface (CLI): pip install orator
+
 from orator import DatabaseManager, Model
 
 config = {
     'sqlite': {
         'driver': 'sqlite',
-        'database': './teste_pezinho.db',
+        'database': './db/db_teste_pezinho.db',
     }
 }
 

@@ -28,5 +28,3 @@ dados = Dados.all()
 
 for dado in dados:
     print('User: ' + str(dado.id) + " - " + dado.name)
-
-
